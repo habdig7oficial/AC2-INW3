@@ -1,0 +1,39 @@
+@use "bootstrap/scss/bootstrap.scss";
+
+.logo {
+  max-width: 5%;
+}
+
+img, svg {
+  color: var(--bs-pink) !important;
+}
+
+p{
+  @extend .text-white;
+}
+
+input {
+  min-width: 5rem;
+}
+
+::selection {
+  @extend .text-bg-warning;
+}
+
+a {
+  color: var(--bs-pink) !important;
+}
+
+.text-body-secondary{
+  color: #fff !important;
+}
+
+button{
+  color: #fff !important;
+  background-color: var(--bs-pink) !important;
+}
+
+.spacer{
+  margin-right: 40%;
+}
+

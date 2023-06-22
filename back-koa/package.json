@@ -1,0 +1,30 @@
+{
+  "name": "back-koa",
+  "version": "0.0.1",
+  "description": "A koa backend for AC2",
+  "main": "build/trigger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && node build/trigger.js",
+    "start_db": "#tsc && node build/config/startdb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habdig7oficial/AC2-INW3.git"
+  },
+  "author": "Mateus Felipe da Silveira Vieira",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/habdig7oficial/AC2-INW3/issues"
+  },
+  "homepage": "https://github.com/habdig7oficial/AC2-INW3#readme",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/pg": "^8.10.2",
+    "typescript": "^5.1.3"
+  }
+}
